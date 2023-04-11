@@ -1,0 +1,15 @@
+syntax = "proto3";
+package sample;
+option go_package = ".;user";
+
+message User {
+  int32 ID = 1;
+  string Email = 2;
+  string Name = 3;
+  bool IsAdmin = 4;
+  float Assets = 5;
+}
+
+message Users {
+  repeated User User = 1;
+}
