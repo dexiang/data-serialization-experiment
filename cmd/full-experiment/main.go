@@ -13,7 +13,7 @@ import (
 	"github.com/jedib0t/go-pretty/v6/table"
 	"github.com/vmihailenco/msgpack/v5"
 
-	pb "data-serialization-experiment/cmd/full-experiment/protobuf/compiled"
+	pb "data-serialization-experiment/protobuf/compiled"
 )
 
 type ExperimentMatrix struct {
